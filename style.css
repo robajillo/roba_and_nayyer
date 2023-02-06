@@ -66,6 +66,11 @@ header {
   background-color: #eee;
 }
 
+@media (max-width: 600px) {
+    header {
+      flex-wrap: wrap;
+    }
+  }
 
 
 .logo {
@@ -92,6 +97,14 @@ header {
     display: inline;
     margin-left: 100px;
   }
+
+
+@media (max-width: 650px) {
+    nav > ul {
+      flex-direction: column;
+    }
+  }
+  
 
   #hero {
     display: flex;
